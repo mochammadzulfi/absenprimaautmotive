@@ -30,13 +30,6 @@
 		</nav>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2><code>How it works?</code></h2>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/9EL1C_-akvQ?showinfo=0&amp;wmode=opaque" frameborder="0" gesture="media" allowfullscreen></iframe>
-				</div>
-			</div>
-			<br>
-			<div class="row">
 				<div class="col-md-12">
 					<div id="content">
 
