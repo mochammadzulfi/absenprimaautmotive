@@ -2,11 +2,11 @@
 	//ini_set("display_errors", 0);
 	//error_reporting(0);
 
-	$base_path		= "http://localhost/dummy/demo_webhook/";
-	$db_name		= "demo_webhook";
-	$db_user		= "root";
-	$db_pass		= "";
-	$db_host		= "127.0.0.1";
+	$base_path		= "https://absen.primaautomotive.id/";
+	$db_name		= "primaaut_primaautomotive";
+	$db_user		= "primaaut_primaautomotive";
+	$db_pass		= "@DM1ND4TABASE@2022";
+	$db_host		= "localhost";
 
 	$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 

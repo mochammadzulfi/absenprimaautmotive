@@ -13,7 +13,7 @@
         $cloud_id   = $decoded_data['cloud_id'];
         $created_at = date('Y-m-d H:i:s');
 
-        $sql    = "INSERT INTO t_log (cloud_id,type,created_at,original_data) VALUES ('".$cloud_id."', '".$type."', '".$created_at."', '".$encoded_data."')";
+        $sql    = "INSERT INTO finger_callbacks (cloud_id,type,created_at,original_data) VALUES ('".$cloud_id."', '".$type."', '".$created_at."', '".$encoded_data."')";
         $result = mysqli_query($conn, $sql);
 
     }

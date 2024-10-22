@@ -2,7 +2,7 @@
 
 	function getLog() {
 		include 'include/global.php';
-		$sql 	= 'SELECT * FROM t_log ORDER BY created_at DESC';
+		$sql 	= 'SELECT * FROM finger_callbacks ORDER BY created_at DESC';
 		$result	= mysqli_query($conn, $sql);
 		$arr 	= array();
 		$i 	= 0;
